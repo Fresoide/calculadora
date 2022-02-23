@@ -1,0 +1,57 @@
+
+body {
+    background: rgb(0, 0, 0);
+}
+.pantalla > span {
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.pantalla {
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    height: 60px;
+    background: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
+}
+.pantalla .texto {
+    flex: auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgb(6, 12, 62) , rgb(30, 2, 2));
+    width: 400px;
+    height: 600px;
+    margin: 30px;
+    border-radius: 2%;
+}
+
+.botones {
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+    height: 100%;
+    background: rgb(57, 57, 64);
+}
+.boton {
+    border: none;
+    border-radius: 4%;
+    background: #888;
+    padding: 25px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.boton:hover {
+    background: linear-gradient(to bottom, transparent,rgb(255, 255, 255));
+    padding: 26px;
+}
