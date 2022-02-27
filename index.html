@@ -14,7 +14,7 @@
 <body>
     <div class="calculadora">
         <div class="pantalla">
-            <span class="texto"></span>
+            <input class="texto" oninput="enPantalla()"></input>
         </div>
         <div class="botones">
             <button class="boton" id="dividir">/</button>
@@ -23,6 +23,7 @@
             <button class="boton" id="multiplicar">*</button>
             <button class="boton" id="vaciar">C</button>
             <button class="boton" id="igual">=</button>
+            <button class="boton" id="borrar"><-</button>
         </div>
     </div>
     <script src="script.js"></script>
